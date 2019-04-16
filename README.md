@@ -1,4 +1,3 @@
-# code-wars
-My Code Wars solutions
+# online-javascript-challenges
+My solutions
 
-View my profile here: https://www.codewars.com/users/huntercallaway
