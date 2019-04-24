@@ -26,3 +26,18 @@ function gramConverter(num, unit) {
 console.log(gramConverter(4, 'oz'));
 console.log(gramConverter(69, 'stones'));
 console.log(gramConverter(2, 'Mg'));
+
+//Part Two
+
+function factorSummer(num) {
+	let arr = [];
+	for(let i = 1; i <= num; i++) {
+		if(num % i === 0) {
+			arr.push(i);
+		}
+	}
+	return arr.reduce((a, b) => a + b);
+
+}
+
+console.log(factorSummer(12));
